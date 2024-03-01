@@ -12,9 +12,9 @@ using static lab2_IP.TrigEquation;
 
 namespace lab2_IP
 {
-    public partial class Form1 : Form
+    public partial class FormEcuatii : Form
     {
-        public Form1()
+        public FormEcuatii()
         {
             InitializeComponent();
         }

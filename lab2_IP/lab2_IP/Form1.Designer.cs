@@ -1,6 +1,6 @@
 ﻿namespace lab2_IP
 {
-    partial class Form1
+    partial class FormEcuatii
     {
 
         private void InitializeComponent()
@@ -14,6 +14,7 @@
             this.textBoxX2 = new System.Windows.Forms.TextBox();
             this.radioButtonEcuatiePolinomiala = new System.Windows.Forms.RadioButton();
             this.groupBoxTrigonometric = new System.Windows.Forms.GroupBox();
+            this.labelRadiani = new System.Windows.Forms.Label();
             this.textBoxTrigonometric = new System.Windows.Forms.TextBox();
             this.labelEgal = new System.Windows.Forms.Label();
             this.comboBoxTrigonometric = new System.Windows.Forms.ComboBox();
@@ -24,7 +25,6 @@
             this.buttonCalculeaza = new System.Windows.Forms.Button();
             this.buttonDespre = new System.Windows.Forms.Button();
             this.buttonIesire = new System.Windows.Forms.Button();
-            this.labelRadiani = new System.Windows.Forms.Label();
             this.groupBoxPolinomial.SuspendLayout();
             this.groupBoxTrigonometric.SuspendLayout();
             this.groupBoxSolutie.SuspendLayout();
@@ -43,6 +43,7 @@
             this.groupBoxPolinomial.Name = "groupBoxPolinomial";
             this.groupBoxPolinomial.Size = new System.Drawing.Size(546, 114);
             this.groupBoxPolinomial.TabIndex = 0;
+            this.groupBoxPolinomial.TabStop = false;
             // 
             // label0
             // 
@@ -118,6 +119,16 @@
             this.groupBoxTrigonometric.Name = "groupBoxTrigonometric";
             this.groupBoxTrigonometric.Size = new System.Drawing.Size(546, 117);
             this.groupBoxTrigonometric.TabIndex = 0;
+            this.groupBoxTrigonometric.TabStop = false;
+            // 
+            // labelRadiani
+            // 
+            this.labelRadiani.AutoSize = true;
+            this.labelRadiani.Location = new System.Drawing.Point(294, 78);
+            this.labelRadiani.Name = "labelRadiani";
+            this.labelRadiani.Size = new System.Drawing.Size(54, 16);
+            this.labelRadiani.TabIndex = 9;
+            this.labelRadiani.Text = "Radiani";
             // 
             // textBoxTrigonometric
             // 
@@ -220,16 +231,7 @@
             this.buttonIesire.UseVisualStyleBackColor = true;
             this.buttonIesire.Click += new System.EventHandler(this.buttonIesire_Click);
             // 
-            // labelRadiani
-            // 
-            this.labelRadiani.AutoSize = true;
-            this.labelRadiani.Location = new System.Drawing.Point(294, 78);
-            this.labelRadiani.Name = "labelRadiani";
-            this.labelRadiani.Size = new System.Drawing.Size(54, 16);
-            this.labelRadiani.TabIndex = 9;
-            this.labelRadiani.Text = "Radiani";
-            // 
-            // Form1
+            // FormEcuatii
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -240,8 +242,8 @@
             this.Controls.Add(this.groupBoxSolutie);
             this.Controls.Add(this.groupBoxTrigonometric);
             this.Controls.Add(this.groupBoxPolinomial);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "FormEcuatii";
+            this.Text = "Ecuatii";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBoxPolinomial.ResumeLayout(false);
             this.groupBoxPolinomial.PerformLayout();
