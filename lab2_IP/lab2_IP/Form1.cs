@@ -73,15 +73,6 @@ namespace lab2_IP
                 case "tan(x)":
                     tf = TrigonometricFunction.Tan;
                     break;
-                case "arcsin(x)":
-                    tf = TrigonometricFunction.Arcsin;
-                    break;
-                case "arccos(x)":
-                    tf = TrigonometricFunction.Arccos;
-                    break;
-                case "arctan(x)":
-                    tf = TrigonometricFunction.Arctan;
-                    break;
                 default:
                     tf = TrigonometricFunction.Sin;
                     break;

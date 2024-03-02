@@ -18,7 +18,6 @@ namespace lab2_IP
         private double _x2 = 1;
 
         #endregion
-
         #region Methods
         public PolyEquation(double x2, double x1, double x0)
         {

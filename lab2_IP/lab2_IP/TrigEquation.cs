@@ -12,7 +12,6 @@ namespace lab2_IP
         private double _arg = 0.5;
         private TrigonometricFunction _function = TrigonometricFunction.Sin;
         #endregion
-
         #region Methods
         public TrigEquation(TrigonometricFunction tf, double argument)
         {
@@ -23,7 +22,7 @@ namespace lab2_IP
         {
             string solutia;
             double sol = 0;
-            if((_function == TrigonometricFunction.Arcsin || _function == TrigonometricFunction.Arccos) && (_arg > 1 || _arg < -1))
+            if((_function == TrigonometricFunction.Sin || _function == TrigonometricFunction.Cos) && (_arg > 1 || _arg < -1))
             {
                 throw new TrigException("Argument invalid", _arg);
             }
@@ -38,15 +37,6 @@ namespace lab2_IP
                 case TrigonometricFunction.Tan:
                     sol = Math.Atan(_arg);
                     break;
-                case TrigonometricFunction.Arcsin:
-                    sol = Math.Sin(_arg);
-                    break;
-                case TrigonometricFunction.Arccos:
-                    sol = Math.Cos(_arg);
-                    break;
-                case TrigonometricFunction.Arctan:
-                    sol = Math.Tan(_arg);
-                    break;
 
             }
             solutia = "x= " + sol.ToString("0.00");
@@ -54,7 +44,7 @@ namespace lab2_IP
         }
         #endregion
         #region Nested Types
-        public enum TrigonometricFunction { Sin = 0, Cos = 1, Tan = 2, Arcsin = 3, Arccos = 4, Arctan = 5 };
+        public enum TrigonometricFunction { Sin = 0, Cos = 1, Tan = 2 };
         #endregion
     }
 }

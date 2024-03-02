@@ -16,7 +16,7 @@ namespace lab2_IP
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new formEcuatii());
+            Application.Run(new FormEcuatii());
         }
     }
 }

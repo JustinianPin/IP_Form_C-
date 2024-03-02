@@ -153,10 +153,7 @@
             this.comboBoxTrigonometric.Items.AddRange(new object[] {
             "sin(x)",
             "cos(x)",
-            "tan(x)",
-            "arcsin(x)",
-            "arccos(x)",
-            "arctan(x)"});
+            "tan(x)"});
             this.comboBoxTrigonometric.Location = new System.Drawing.Point(49, 75);
             this.comboBoxTrigonometric.Name = "comboBoxTrigonometric";
             this.comboBoxTrigonometric.Size = new System.Drawing.Size(121, 24);

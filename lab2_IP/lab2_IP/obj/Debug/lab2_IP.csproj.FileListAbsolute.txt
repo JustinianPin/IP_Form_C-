@@ -5,6 +5,6 @@ C:\Users\justi\source\repos\lab2_IP\lab2_IP\obj\Debug\lab2_IP.csproj.CoreCompile
 C:\Users\justi\source\repos\lab2_IP\lab2_IP\bin\Debug\lab2_IP.exe.config
 C:\Users\justi\source\repos\lab2_IP\lab2_IP\bin\Debug\lab2_IP.exe
 C:\Users\justi\source\repos\lab2_IP\lab2_IP\bin\Debug\lab2_IP.pdb
-C:\Users\justi\source\repos\lab2_IP\lab2_IP\obj\Debug\lab2_IP.Form1.resources
 C:\Users\justi\source\repos\lab2_IP\lab2_IP\obj\Debug\lab2_IP.exe
 C:\Users\justi\source\repos\lab2_IP\lab2_IP\obj\Debug\lab2_IP.pdb
+C:\Users\justi\source\repos\lab2_IP\lab2_IP\obj\Debug\lab2_IP.FormEcuatii.resources

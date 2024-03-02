@@ -12,7 +12,6 @@ namespace lab2_IP
         private double _argument;
         private string _message;
         #endregion
-        
         #region Properties
         public string Message
         {
@@ -22,7 +21,6 @@ namespace lab2_IP
             }
         }
         #endregion
-
         #region Methods
         public TrigException(string message, double argument) : base(message) 
         {
